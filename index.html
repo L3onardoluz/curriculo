@@ -21,11 +21,40 @@
 		</div>
 		
 		<div class="menu_top">
-			<p>Aqui vai os menus</p>
+			<div class="dropdown">
+				<button onclick="abreMenu(menu1)" class="dropbtn">Menu</button> 
+				<div id="menu1" class="dropdown-content">
+					<a href="#cupcake" onclick="readTextFile('file:recursos/textos/cupcake.txt')">CupCake</a>
+					<a href="#cv" onclick="readTextFile('file:recursos/textos/cv.txt')">Curriculo</a>
+					<a href="#opcao3">Opção 3</a>
+					<a href="#opcao4">Opção 4</a>	
+				</div>
+			</div>
+			
+			<div class="dropdown">
+				<button onclick="abreMenu(menu2)" class="dropbtn">Extras</button> 
+				<div id="menu2" class="dropdown-content">
+					<a onclick="readTextFile('file:recursos/textos/cupcake.txt')">Gatinhos</a>
+					<a onclick="readTextFile('file:recursos/textos/cv.txt')">Arvores de Natal</a>
+					<a href="#opcao3">Opção 3</a>
+					<a href="#opcao4">Opção 4</a>	
+				</div>
+			</div>
+			
+			<div class="dropdown">
+				<button onclick="abreMenu(menu3)" class="dropbtn">Teste Lecal</button> 
+				<div id="menu3" class="dropdown-content">
+					<a onclick="readTextFile('file:recursos/textos/cupcake.txt')">Jamais</a>
+					<a onclick="readTextFile('file:recursos/textos/cv.txt')">Sabera</a>
+					<a href="#opcao3">Opção 3</a>
+					<a href="#opcao4">Opção 4</a>	
+				</div>
+			</div>
+			
 		</div>
 		
-		<div class="corpo">
-			<h1 class="titulo">Ingredientes</h1>
+		<div id="conteudo" class="corpo">
+			            <h1 class="titulo">Ingredientes</h1>
 			<h2 class="subtitulo">Massa do Cupcake</h2>
 			<hr>
 			<p class="texto">

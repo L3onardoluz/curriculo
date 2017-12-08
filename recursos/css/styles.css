@@ -35,7 +35,7 @@ div.menu_top{
   background: #f4f5f4;
   top: 80px;
   left: 200px;
-  text-align:center;
+  text-align:left;
   width: 80%;
 }
 
@@ -80,8 +80,57 @@ img.perfil{
   margin: auto;
 }
 
+div.lh{
+  border: thin solid lightgray; 
+  margin: 0 10% 2% 10%;
+}
+
 h1.titulo { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 40px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
 
 h2.subtitulo { color: #111; font-family: 'Open Sans', sans-serif; font-size: 30px; font-weight: 300; line-height: 32px; margin: 0 0 20px; text-align: center; }
 
-p.texto { color: #685206; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 80px 24px; text-align: justify; text-justify: inter-word; }
+p.texto {font-weight: bold; color: #685206; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 80px 24px; text-align: justify; text-justify: inter-word; }
+
+p.item { color: #685206; font-family: 'Helvetica Neue', sans-serif; font-size: 12px; line-height: 24px; margin: 0 80px 24px; text-align: left; text-justify: inter-word; text-indent: 50px;}
+
+/*botoes do menu*/
+.dropbtn {
+    background-color: white;
+    color: dodgerblue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: DodgerBlue ;
+    color: white
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: dodgerblue;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: dodgerblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: dodgerblue; color: white}
+
+.show {display:block;}

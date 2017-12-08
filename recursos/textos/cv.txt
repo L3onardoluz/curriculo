@@ -1,0 +1,31 @@
+<h1 class="titulo">Leonardo da Luz Silva</h1>
+<div class="lh"></div>
+<h2 class="subtitulo">CONTATO</h2>
+<p class="texto">
+    Brasileiro – 26 anos – Solteiro
+    Rua 24 de maio, 189, apartamento 502 - Centro Histórico – Porto Alegre/RS – 90050-180<br>
+    Telefone: (51) 99724-1157 – (51) 3402-3661 – E-mail: leonardoluz@live.com<br>
+</p>
+<div class="lh"></div>
+<h2 class="subtitulo">OBJETIVOS</h2>
+<p class="texto">
+    Informática – Analista/Desenvolvedor/Programador
+</p>
+<div class="lh"></div>
+<h2 class="subtitulo">QUALIFICAÇÕES</h2>
+    <p class="texto">Linguagens de programação:</p> 
+    <p class="item">JAVA, HTML, C/C++, ASSEMBLY, VHDL, SQL, PROGRESS.</p>
+    <p class="texto">Sistemas Operacionais:</p>
+    <p class="item">Linux e Windows-Server</p>
+    <p class="texto">Redes de Computadores:</p>
+    <p class="item">Gerenciar e implementar Redes de Computadores, Conhecimento de Protocolos de Rede e Drivers de comunicação</p>
+    <p class="texto">Eletrônica:</p>
+    <p class="item">Circuitos elétricos, instrumentação e componentes eletrônicos.</p>
+    <p class="texto">Engenharia da Computação:</p>
+    <p class="item">Desenvolvimento de Software e Hardware, Gerência de Projetos e Automação de Processos.</p>
+    <p class="texto">Inglês:</p>
+    <p class="item">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.</p>
+    <p class="texto">Currículo Lattes:</p>
+    <p class="item">http://lattes.cnpq.br/0497334137780484</p>
+</p>
+<div class="lh"></div>
