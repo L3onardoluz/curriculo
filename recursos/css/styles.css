@@ -1,0 +1,87 @@
+body { 
+			background-image: url(../imagens/fundo/fundo.jpg) ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+  
+}
+
+div.top {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 99.9%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+div.corpo{
+  position: absolute; 
+  margin: 0;
+  background: #f4f5f4;
+  top: 140px;
+  left: 200px;
+  text-align:center;
+  width: 80%;
+  height: auto;
+}
+
+
+div.menu_top{
+  position: absolute;  
+  margin: 0;
+  background: #f4f5f4;
+  top: 80px;
+  left: 200px;
+  text-align:center;
+  width: 80%;
+}
+
+div.perfil{
+  position: absolute; 
+  margin: 0;
+  background: #f4f5f4;
+  width: 160px;
+  height: 160px;
+  top: 80px;
+  left: 20px;
+  text-align:center
+}
+
+div.nome{
+  position: absolute; 
+  width: 160px;
+  margin: 0;
+  background: #f4f5f4;
+  top: 260px;
+  left: 20px;
+  text-align:center
+}
+
+p.top{
+  color: #111;
+  font-family:  'Open Sans', sans-serif;
+  line-height: 1;
+  text-align: left;
+}
+
+img.perfil{
+  max-height: 100%;  
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;  
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  margin: auto;
+}
+
+h1.titulo { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 40px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+
+h2.subtitulo { color: #111; font-family: 'Open Sans', sans-serif; font-size: 30px; font-weight: 300; line-height: 32px; margin: 0 0 20px; text-align: center; }
+
+p.texto { color: #685206; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 80px 24px; text-align: justify; text-justify: inter-word; }
